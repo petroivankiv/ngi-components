@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngi-lib": [
+        "dist/ngi-lib"
+      ],
+      "ngi-lib/*": [
+        "dist/ngi-lib/*"
+      ]
+    }
   }
 }
